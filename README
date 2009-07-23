@@ -1,0 +1,12 @@
+ActiveRecord-Stripper 0.1
+=========================
+
+Simple pre validation stripper for ActiveRecord. Basically,
+calls strip on anything which is strippable before trying 
+to validate it.
+
+CHANGELOG
+=========
+
+- 0.1
+  * initial release
