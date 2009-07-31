@@ -5,6 +5,7 @@ module ActiveRecord
         def strip_spaces_from_name
           self.attributes.each do |key, val|
             self[key] = val.strip if val.respond_to?(:strip)
+            self[key] = nil if val.blank?
           end
         end
         send :before_validation, :strip_spaces_from_name
