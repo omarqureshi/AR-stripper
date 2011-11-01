@@ -1,8 +1,8 @@
-h1. ActiveRecord-Stripper
+# ActiveRecord-Stripper
 
 Strip whitespace from records and make blank strings null.
 
-h2. CHANGELOG
+## CHANGELOG
 
 * 0.0.2
     * make this a gem
