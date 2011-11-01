@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Stripper::VERSION
   s.authors     = ["Omar Qureshi"]
   s.email       = ["omar@omarqureshi.net"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://omarqureshi.net"
+  s.summary     = %q{Strips out spaces before saving using ActiveRecord}
+  s.description = %q{Strips out spaces before saving using ActiveRecord}
 
   s.rubyforge_project = "stripper"
 
