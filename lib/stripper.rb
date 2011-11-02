@@ -9,7 +9,7 @@ module ActiveRecord
           self.class.columns.each do |col|
             name = col.name
             val = attributes[name]
-            unless col.type == :boolean
+            if col.type != :boolean && name != "id"
               if val.respond_to?(:blank?) && val.blank?
                 self[name] = nil
               elsif val.respond_to?(:strip)

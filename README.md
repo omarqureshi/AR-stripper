@@ -8,5 +8,5 @@ Strip whitespace from records and make blank strings null.
     * make this a gem
     * works for booleans correctly! (true or false, not true or false or null)
 * 0.0.1
-  * initial release
+    * initial release
   
